@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698479613373",
+    "project_id": "kanban-df49e",
+    "storage_bucket": "kanban-df49e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698479613373:android:33f1580d13488be53aeed4",
+        "android_client_info": {
+          "package_name": "com.projemanag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698479613373-bpq2hm3bp68uud6ie5eeiv230j3mce9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUz2lK0OcqTCoiXWbI9FFe1B23ZtOjIhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698479613373-bpq2hm3bp68uud6ie5eeiv230j3mce9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

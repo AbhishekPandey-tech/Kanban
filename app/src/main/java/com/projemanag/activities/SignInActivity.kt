@@ -1,8 +1,9 @@
-package com.projemanag
+package com.projemanag.activities
 
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.projemanag.R
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
 // TODO (Step 1: Add the Sign In activity.)

@@ -1,16 +1,17 @@
-package com.projemanag
+package com.projemanag.activities
 
 import android.content.Intent
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.projemanag.R
 import kotlinx.android.synthetic.main.activity_intro.*
 import kotlinx.android.synthetic.main.activity_splash.*
 
 // TODO (Step 1: Add the Intro Activity.)
 // START
-class IntroActivity : AppCompatActivity() {
+class IntroActivity : BaseActivity() {
 
     /**
      * This function is auto created by Android when the Activity Class is created.
