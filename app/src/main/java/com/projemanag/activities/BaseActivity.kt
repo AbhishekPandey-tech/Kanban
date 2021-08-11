@@ -11,9 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.projemanag.R
 import kotlinx.android.synthetic.main.dialog_progress.*
 
-
 open class BaseActivity : AppCompatActivity() {
-
     private var doubleBackToExitPressedOnce = false
 
     /**
@@ -34,20 +32,16 @@ open class BaseActivity : AppCompatActivity() {
         /*Set the screen content from a layout resource.
         The resource will be inflated, adding all top-level views to the screen.*/
         mProgressDialog.setContentView(R.layout.dialog_progress)
-
         mProgressDialog.tv_progress_text.text = text
-
         //Start the dialog and display it on screen.
         mProgressDialog.show()
     }
-
     /**
      * This function is used to dismiss the progress dialog if it is visible to user.
      */
     fun hideProgressDialog() {
         mProgressDialog.dismiss()
     }
-
     fun getCurrentUserID(): String {
         return FirebaseAuth.getInstance().currentUser!!.uid
     }

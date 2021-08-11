@@ -29,7 +29,7 @@ class SplashActivity : AppCompatActivity() {
 
         // This is used to get the file from the assets folder and set it to the title textView.
         val typeface: Typeface =
-            Typeface.createFromAsset(assets, "JackRollDemoRegular.ttf")
+            Typeface.createFromAsset(assets, "JackRollDemoRegular.ttf")//to change the font style
         tv_app_name.typeface = typeface
 
         // TODO (Step 9: Here we will launch the Intro Screen after the splash screen using the handler. As using handler the splash screen will disappear after what we give to the handler.)
@@ -38,6 +38,6 @@ class SplashActivity : AppCompatActivity() {
             // Start the Intro Activity
             startActivity(Intent(this@SplashActivity, IntroActivity::class.java))
             finish() // Call this when your activity is done and should be closed.
-        }, 3000) // Here we pass the delay time in milliSeconds after which the splash activity will disappear.
+        }, 2000) // Here we pass the delay time in milliSeconds after which the splash activity will disappear.
     }
 }

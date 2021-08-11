@@ -40,7 +40,7 @@ class IntroActivity : BaseActivity() {
             startActivity(Intent(this@IntroActivity, SignInActivity::class.java))
         }
         // END
-
+        //Add a click event for Sign UP btn and launch the Sign In Screen.)
         btn_sign_up_intro.setOnClickListener {
 
             // Launch the sign up screen.
